@@ -1,5 +1,5 @@
 [Unit]
-Description=Update cron periods from /etc/sysconfig/btrfsmaintenance
+Description=Update cron periods from /etc/default/btrfsmaintenance
 After=local-fs.target
 
 [Service]

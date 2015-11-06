@@ -124,7 +124,7 @@ speedup here.
 
 Cron takes care of periodic execution of the scripts, but they can be run any
 time directly from `/usr/share/btrfs/maintenance/`, respecting the configured
-values in `/etc/sysconfig/btrfsmaintenance`.
+values in `/etc/default/btrfsmaintenance`.
 
 If the period is changed manually, the cron symlinks have to be refreshed, use
 `systemctl restart btrfsmaintenance-refresh` (or the

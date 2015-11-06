@@ -26,8 +26,8 @@ if [ "$1" = 'uninstall' ]; then
 	exit 0
 fi
 
-if [ -f /etc/sysconfig/btrfsmaintenance ]; then
-    . /etc/sysconfig/btrfsmaintenance
+if [ -f /etc/default/btrfsmaintenance ]; then
+    . /etc/default/btrfsmaintenance
 fi
 
 refresh_period() {
