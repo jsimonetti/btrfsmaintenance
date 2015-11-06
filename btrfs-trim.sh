@@ -27,7 +27,7 @@ for MNT in $BTRFS_TRIM_MOUNTPOINTS; do
 		continue
 	fi
 	echo "Running fstrim on $MNT"
-	/usr/sbin/fstrim "$MNT"
+	/sbin/fstrim "$MNT"
 done
 
 } | \
